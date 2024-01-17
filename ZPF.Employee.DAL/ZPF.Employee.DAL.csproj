@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ZPF.Employee.Intefaces\ZPF.Employee.Interfaces.csproj" />
+  </ItemGroup>
+
 </Project>
