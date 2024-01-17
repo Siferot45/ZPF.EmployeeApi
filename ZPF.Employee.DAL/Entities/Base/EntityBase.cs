@@ -1,6 +1,8 @@
-﻿namespace ZPF.Employee.DAL.Entities.Base
+﻿using ZPF.Employee.Interfaces;
+
+namespace ZPF.Employee.DAL.Entities.Base
 {
-    internal class EntityBase
+    public class EntityBase : IEntity
     {
         public Guid Id { get; set; }
     }
